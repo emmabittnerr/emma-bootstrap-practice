@@ -9,4 +9,74 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.display-4 {
+  color: white;
+  font-family: 'Pirata One', cursive;
+}
+
+.lead {
+  color: white;
+  font-size: medium;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: white;
+}
+
+.navbar-link {
+  font-family: Arial, Helvetica, sans-serif;
+  // idk how to change the color, come bak to this
+  color: red;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  font-weight: bold;
+  font-size: 15px;
+}
+.row-byline {
+  // go in and change the color
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.attribute {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+.headline {
+  font-family: 'Pirata One', cursive;
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.story {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+//   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; do i like this one better???
+}
 // Import partials here
